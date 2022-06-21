@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="form-group">
+    <label>Ud Categoria</label>
+    <input type="text" [(ngModel)]="catg.idCatg" class="form-control">
+  </div>
+
+  <br>
+  <div class="form-group">
+    <label>Nombre Categoria</label>
+    <input type="text" [(ngModel)]="catg.nomCategoria" class="form-control">
+  </div>
+
+  <br>
+  <div class="form-group">
+    <label>Descripcion Categoria</label>
+    <input type="text" [(ngModel)]="catg.descripcionCategoria" class="form-control">
+  </div>
+  <br>
+  <button class="btn btn-succes" (click)="agregar()">Agregar</button>
+
+</div>
